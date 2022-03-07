@@ -1,8 +1,4 @@
-// import styled from '@emotion/styled'
-// import { rem } from 'polished'
-
 import styled from '@emotion/styled'
-import { useTheme, ThemeProvider, withTheme } from '@emotion/react'
 import { rem } from 'polished'
 
 function Header({ isDark }) {

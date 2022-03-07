@@ -1,16 +1,14 @@
-// import styled from '@emotion/styled'
-// import { rem } from 'polished'
-
 import styled from '@emotion/styled'
 import { useTheme, ThemeProvider, withTheme } from '@emotion/react'
 import { rem } from 'polished'
 
-function Header({ isDark }) {
+function Header({isDark}) {
     return (
         <HeaderStyled isDark={isDark}>
-            <div className="container">
-                <div className="logo">
-                    <img src="/images/logo.svg" alt="Sites logo" />
+            <div className='container'>
+                <div className='logo'>
+                    {/* <img src="/images/IMG_3088.jpeg" alt="Site logo"/> */}
+                    <img src="favicon.ico" alt="Site logo" width="50" height="50"/>
                     <span className="logo-text">Next Movies</span>
                 </div>
             </div>
@@ -19,7 +17,9 @@ function Header({ isDark }) {
 }
 
 const HeaderStyled = styled.header`
-    background: ${props => props.isDark ? '#000000' : '#efefef' };
+    /* background: ${props => props.theme.colors.primary}; */
+    /* background: #efefef; */
+    background: ${props => props.isDark ? '#000000' : '#efefef'};
     padding: 20px;
 
     .logo {
@@ -33,6 +33,7 @@ const HeaderStyled = styled.header`
             margin-left: 20px;
         }
     }
+
 `
 
 export default Header

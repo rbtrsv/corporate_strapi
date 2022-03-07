@@ -1,3 +1,4 @@
+// import { Global, css } from '@emotion/core'
 import { jsx, Global, css } from '@emotion/react'
 
 const GlobalStyles = () => (
