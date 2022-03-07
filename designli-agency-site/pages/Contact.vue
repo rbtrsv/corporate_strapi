@@ -16,7 +16,7 @@
           <div class="form-group">
             <div class="form-control">
               <label for="name">Full name</label>
-              <input type="text" id="name" v-model="name" value="Robert"  required/>
+              <input type="text" id="name" v-model="name" value="Miracleio"  required/>
             </div>
             <!-- <div class="form-control">
               <label for="company">Company name</label>
@@ -25,7 +25,7 @@
           </div>
           <div class="form-control">
             <label for="email">Email Address</label>
-            <input type="email" id="email" v-model="email" value="robert.radoslav@pm.me"  required/>
+            <input type="email" id="email" v-model="email" value="Miracleio@gmail.com"  required/>
           </div>
           <div class="wrapper">
             <h3 class="">Pick a service</h3>
@@ -66,9 +66,9 @@
     data(){
       return{
         success: false,
-        name: 'Robert',
+        name: 'Miracle',
         // company: 'Miracleio',
-        email: 'robert.radoslav@pm.me',
+        email: 'mio@mio.co',
         services: ['branding'],
         message: 'What\'s up yo?'
       }
